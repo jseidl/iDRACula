@@ -9,13 +9,13 @@ ATTENTION:
 
 Usage
 ----------------------------------------
- USAGE: ./idracula.py <url> [OPTIONS]
+    USAGE: ./idracula.py <url> [OPTIONS]
 
- OPTIONS:
-     Flag           Description                     Default
-     -d, --debug        Enable Debug Mode [more verbose output]         (default: False)
-     -w, --workers      Sets the number of workers (forks)          (default: 100)
-     -h, --help     Shows this help
+    OPTIONS:
+        Flag           Description                     Default
+        -d, --debug        Enable Debug Mode [more verbose output]         (default: False)
+        -w, --workers      Sets the number of workers (forks)          (default: 100)
+        -h, --help     Shows this help
 
 
 License
