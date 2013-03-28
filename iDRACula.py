@@ -157,6 +157,7 @@ def usage():
     print ' OPTIONS:'
     print '\t Flag\t\t\tDescription\t\t\t\t\t\tDefault'
     print '\t -d, --debug\t\tEnable Debug Mode [more verbose output]\t\t\t(default: False)'
+    print '\t -w, --workers\t\tSets the number of workers (forks)\t\t\t(default: 100)'
     print '\t -h, --help\t\tShows this help'
     print '-----------------------------------------------------------------------------------------------------------'
 

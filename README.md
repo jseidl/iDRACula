@@ -7,6 +7,17 @@ ATTENTION:
 * A Shodan API Key is required! Get one at http://www.shodanhq.com/api_doc
 * Free Shodan API Key is limited to 50 results
 
+Usage
+----------------------------------------
+ USAGE: ./idracula.py <url> [OPTIONS]
+
+ OPTIONS:
+     Flag           Description                     Default
+     -d, --debug        Enable Debug Mode [more verbose output]         (default: False)
+     -w, --workers      Sets the number of workers (forks)          (default: 100)
+     -h, --help     Shows this help
+
+
 License
 -----------------------------------------
 This software is distributed under the GNU General Public License version 3 (GPLv3)
