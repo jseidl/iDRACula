@@ -5,6 +5,7 @@ iDRACula uses the Shodan API (www.shodanhq.com) to search for Dell iDRAC boards 
 ATTENTION: 
 -----------------------------
 * A Shodan API Key is required! Get one at http://www.shodanhq.com/api_doc
+* You MUST install Shodan API <http://docs.shodanhq.com/python/tutorial.html#installation> in order to run iDRACula: $ easy_install shodan
 * Free Shodan API Key is limited to 50 results
 
 Usage

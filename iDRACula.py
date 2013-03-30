@@ -207,9 +207,9 @@ def main():
             queue.put(result)
 
         if DEBUG:
-            print "Queue Size is: {0}".format(queue.qsize())
+            print "Queue Size is: {0}".format(len(idracs['matches']))
         
-        print "{0} SHODAN entries found for 'idrac' (but showing only {1} due SHODAN API limitations)".format(idracs['total'], queue.qsize())
+        print "{0} SHODAN entries found for 'idrac' (but showing only {1} due SHODAN API limitations)".format(idracs['total'], len(idracs['matches']))
 
         for i in range(workers):
             worker = Process(target=idracula, args=((queue), ))
